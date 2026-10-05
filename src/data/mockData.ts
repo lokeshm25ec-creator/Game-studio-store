@@ -1,4 +1,8 @@
 import { GameItem, MerchandiseItem, DevlogArticle, LibraryGame } from '../types/store';
+import heroCybershift from '../assets/images/hero_cybershift_game_1791194143755.jpg';
+import gameSolaris from '../assets/images/game_solaris_descent_1791194158162.jpg';
+import gameHollow from '../assets/images/game_hollow_ashes_1791194172124.jpg';
+import gameVelocity from '../assets/images/game_velocity_zero_1791194183507.jpg';
 
 export const GAMES_CATALOG: GameItem[] = [
   {
@@ -13,12 +17,12 @@ export const GAMES_CATALOG: GameItem[] = [
     status: 'Pre-Order',
     rating: 'Overwhelmingly Positive',
     ratingPercentage: 97,
-    bannerImage: '/src/assets/images/hero_cybershift_game_1791194143755.jpg',
-    thumbnailImage: '/src/assets/images/hero_cybershift_game_1791194143755.jpg',
+    bannerImage: heroCybershift,
+    thumbnailImage: heroCybershift,
     screenshots: [
-      '/src/assets/images/hero_cybershift_game_1791194143755.jpg',
-      '/src/assets/images/game_velocity_zero_1791194183507.jpg',
-      '/src/assets/images/game_solaris_descent_1791194158162.jpg',
+      heroCybershift,
+      gameVelocity,
+      gameSolaris,
     ],
     platforms: ['PC (Windows)', 'PlayStation 5', 'Xbox Series X|S'],
     features: [
@@ -144,11 +148,11 @@ export const GAMES_CATALOG: GameItem[] = [
     status: 'Available Now',
     rating: 'Very Positive',
     ratingPercentage: 92,
-    bannerImage: '/src/assets/images/game_solaris_descent_1791194158162.jpg',
-    thumbnailImage: '/src/assets/images/game_solaris_descent_1791194158162.jpg',
+    bannerImage: gameSolaris,
+    thumbnailImage: gameSolaris,
     screenshots: [
-      '/src/assets/images/game_solaris_descent_1791194158162.jpg',
-      '/src/assets/images/hero_cybershift_game_1791194143755.jpg',
+      gameSolaris,
+      heroCybershift,
     ],
     platforms: ['PC (Windows)', 'PlayStation 5', 'Xbox Series X|S', 'macOS'],
     features: [
@@ -237,11 +241,11 @@ export const GAMES_CATALOG: GameItem[] = [
     status: 'Available Now',
     rating: 'Overwhelmingly Positive',
     ratingPercentage: 96,
-    bannerImage: '/src/assets/images/game_hollow_ashes_1791194172124.jpg',
-    thumbnailImage: '/src/assets/images/game_hollow_ashes_1791194172124.jpg',
+    bannerImage: gameHollow,
+    thumbnailImage: gameHollow,
     screenshots: [
-      '/src/assets/images/game_hollow_ashes_1791194172124.jpg',
-      '/src/assets/images/hero_cybershift_game_1791194143755.jpg',
+      gameHollow,
+      heroCybershift,
     ],
     platforms: ['PC (Windows)', 'PlayStation 5', 'Xbox Series X|S'],
     features: [
@@ -330,11 +334,11 @@ export const GAMES_CATALOG: GameItem[] = [
     status: 'Available Now',
     rating: 'Very Positive',
     ratingPercentage: 91,
-    bannerImage: '/src/assets/images/game_velocity_zero_1791194183507.jpg',
-    thumbnailImage: '/src/assets/images/game_velocity_zero_1791194183507.jpg',
+    bannerImage: gameVelocity,
+    thumbnailImage: gameVelocity,
     screenshots: [
-      '/src/assets/images/game_velocity_zero_1791194183507.jpg',
-      '/src/assets/images/hero_cybershift_game_1791194143755.jpg',
+      gameVelocity,
+      heroCybershift,
     ],
     platforms: ['PC (Windows)', 'PlayStation 5', 'Xbox Series X|S', 'Nintendo Switch 2'],
     features: [
@@ -405,7 +409,7 @@ export const MERCHANDISE_CATALOG: MerchandiseItem[] = [
     category: 'hardware',
     price: 149.99,
     originalPrice: 179.99,
-    image: '/src/assets/images/hero_cybershift_game_1791194143755.jpg',
+    image: heroCybershift,
     description: 'Hall-effect magnetic thumbsticks with zero drift guarantee, mechanical microswitch tactile buttons, interchangeable rear paddle triggers, and CNC-milled aluminum faceplate with custom laser-etched circuitry.',
     specs: [
       'Hall Effect electromagnetic sensors',
@@ -422,7 +426,7 @@ export const MERCHANDISE_CATALOG: MerchandiseItem[] = [
     title: 'The Art & Engineering of Solaris Descent (Hardcover Grimoire)',
     category: 'artbook',
     price: 65.00,
-    image: '/src/assets/images/game_solaris_descent_1791194158162.jpg',
+    image: gameSolaris,
     description: 'A luxurious 320-page clothbound artbook featuring full-color concept art, orbital station engineering blueprints, matte paintings, and developer essays on constructing a scientifically credible zero-g thriller.',
     specs: [
       '320 pages heavyweight 180gsm art paper',
@@ -437,7 +441,7 @@ export const MERCHANDISE_CATALOG: MerchandiseItem[] = [
     title: 'CYBERSHIFT: 2088 Original Soundtrack (4xLP Boxset)',
     category: 'vinyl',
     price: 89.99,
-    image: '/src/assets/images/hero_cybershift_game_1791194143755.jpg',
+    image: heroCybershift,
     description: 'Quadruple 180-gram audiophile heavyweight vinyl pressed on translucent amber and cobalt splatter wax. Housed in a rigid foil-embossed slipcase with exclusive liner notes and turntable slipmat.',
     specs: [
       '4x 180g Heavyweight colored vinyl',
@@ -457,8 +461,8 @@ export const INITIAL_USER_LIBRARY: LibraryGame[] = [
     platform: 'PC (Windows)',
     purchaseDate: 'Sep 18, 2026',
     activationKey: 'AEON-VELZ-8924-PX11',
-    bannerImage: '/src/assets/images/game_velocity_zero_1791194183507.jpg',
-    thumbnailImage: '/src/assets/images/game_velocity_zero_1791194183507.jpg',
+    bannerImage: gameVelocity,
+    thumbnailImage: gameVelocity,
     hoursPlayed: 38.4,
     lastPlayed: 'Yesterday at 9:15 PM',
     installSize: '28.4 GB',
@@ -479,7 +483,7 @@ export const DEVLOGS: DevlogArticle[] = [
       name: 'Dr. Henrik Lindqvist',
       role: 'Principal Graphics Architect'
     },
-    coverImage: '/src/assets/images/hero_cybershift_game_1791194143755.jpg',
+    coverImage: heroCybershift,
     content: `When designing the multi-tiered districts of Neo-Veridia, one of our fundamental visual pillars was that light should not merely illuminate geometry—it should communicate the suffocating density of the city.
 
 In typical deferred renderers, thousands of dynamic emissive neon signs, volumetric steam vents, and rain-slicked reflective puddles overwhelm compute caches. For Cybershift: 2088, we authored a specialized spatial spatio-temporal reservoir resampling (ReSTIR) pipeline integrated directly into Unreal Engine 5.5.
@@ -497,7 +501,7 @@ By caching secondary bounce radiance in compact octree textures updated asynchro
       name: 'Maya Chen',
       role: 'Audio Director'
     },
-    coverImage: '/src/assets/images/game_solaris_descent_1791194158162.jpg',
+    coverImage: gameSolaris,
     content: `In space, no one can hear you scream—unless the vibrations travel through the carbon-composite fibers of your EVA pressure suit and resonate into your inner ear.
 
 We built our entire audio engine on bone conduction and contact acoustics. When Kieran grabs a frozen hatch handle outside the Aethelgard station, you don't hear a synthesized whoosh; you hear the metallic groan transmitted directly through your gauntlet, filtered through low-pass bone resonance modeling.`
@@ -513,7 +517,7 @@ We built our entire audio engine on bone conduction and contact acoustics. When 
       name: 'Torvald Eklund',
       role: 'Lead Combat Designer'
     },
-    coverImage: '/src/assets/images/game_hollow_ashes_1791194172124.jpg',
+    coverImage: gameHollow,
     content: `Community feedback from the Sunken Cathedral trials has been instrumental. In Patch 1.4.2, we have overhauled greatsword hyperarmor windows, reducing initial startup vulnerability by 4 frames while scaling boss poise regeneration dynamically according to player weapon weight.`
   }
 ];
