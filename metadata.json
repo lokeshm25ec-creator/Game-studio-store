@@ -1,0 +1,7 @@
+{
+  "name": "AEON FORGE STUDIOS | Official Store & Game Vault",
+  "description": "Explore, purchase, and redeem official titles, collectors editions, DLC expansions, and merchandise from AEON FORGE STUDIOS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
